@@ -1,11 +1,5 @@
-## bowdens.me
+## Bowdens.me
 
-Welcome to bowdens.me
+Coming soon
 
-### Steemit
-
-My Steemit: [@bowdens](https://steemit.com/@bowdens)
-
-### Contact
-
-Contact me at admin@bowdens.me
+`but maybe not`
