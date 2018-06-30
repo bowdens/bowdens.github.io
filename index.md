@@ -2,7 +2,8 @@
 layout: default
 title: bowdens.me
 ---
-<div class="blurb">
-    <h1>Tom Bowden</h1>
-    <p>Studying compsci at UNSW. Always looking for interesting side projects</p>
-</div>
+# Tom Bowden
+
+This is the homepage of Tom Bowden. You can check out my [about](about) page for more about me.
+
+I've compiled a list of my side projects under the [projects](projects) tab.

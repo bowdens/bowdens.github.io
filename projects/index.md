@@ -9,7 +9,7 @@ title: CV
 
 <div class="project-list">
     <h2>C</h2>
-    <table>
+    <table class="no-table" style="width:90%">
         <tr>
             <td><a href="http://github.com/bowdens/input-handler">libtalaris</a></td>
             <td>A library that handles interactive input for you in your C programs.</td>
@@ -23,16 +23,17 @@ title: CV
     </table>
 
     <h2>Python</h2>
-    <table>
+    <table class="no-table" style="width:90%">
         <tr>
-            <td><a href="http://github.com/tweet-simulator">Tweet Simulator Bot</a></td><td>A twitter bot that responds to mentions and impersonates @mentioned users using markov chains.</td>
+            <td><a href="http://github.com/bowdens/tweet-simulator">Tweet Simulator Bot</a></td><td>A twitter bot that responds to mentions and impersonates @mentioned users using markov chains.</td>
         </tr>
         <tr>
-            <td><a href="http://github.com/erctoken.info">erctoken.info</a></td><td>A website that can interact with ERC20 tokens on the ethereum blockchain. Not currently deployed on a webserver.</td>
+            <td><a href="http://github.com/bowdens/erctoken.info">erctoken.info</a></td><td>A website that can interact with ERC20 tokens on the ethereum blockchain. Not currently deployed on a webserver.</td>
         </tr>
     </table>
+
     <h2>Processing</h2>
-    <table>
+    <table class="no-table" style="width:90%">
         <tr>
             <td><a href="/projects/processingPages">Processing Pages</a></td><td>A collection of small sketches I've made in processing. Most of these are made over the course of an afternoon and don't really do much.</td>
         </tr>
