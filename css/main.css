@@ -14,10 +14,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #444;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none; /*underline;*/
+    color: #999;
 }
 h1 {
     font-size: 3em;
@@ -42,3 +43,35 @@ ul.posts li {
     list-style: none;
 }
 
+.centre {
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+.no-table {
+    list-style-type: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.no-table tr {
+    padding: 5px;
+}
+
+.no-table td {
+    border-bottom: 1px solid #444;
+    padding: 5px;
+}
+
+div.project-list table {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+canvas {
+    border: 5px outset #DDD;
+}
