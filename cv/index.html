@@ -1,0 +1,50 @@
+---
+layout: default
+title: CV
+---
+
+{% include cv_resolver.html %}
+
+<script>
+    function resolve_key() {
+        var key;
+        if(arguments.length == 0) {
+            key = document.getElementById("key").value;
+        } else {
+            key = arguments[1];
+        }
+        var decrypted = CryptoJS.AES.decrypt(encryptedHTML, key, {format: JsonFormatter});
+        try {
+            var decryptedHTML = decrypted.toString(CryptoJS.enc.Utf8);
+        } catch(err) {
+            document.getElementById("resume").innerHTML = "";
+            document.getElementById("error").innerText = "Incorrect Key!";
+            return;
+        }
+        var match = "<h1>Resume</h1>"
+        var firstPart = decryptedHTML.substr(0,match.length);
+        if(firstPart === match) {
+            // Key worked (probably... MIGHT happen to decrypt to a random string that has <h1>...)
+            document.getElementById("error").innerText = "";
+            document.getElementById("resume").innerHTML = decryptedHTML;
+        } else {
+            document.getElementById("error").innerText = "Incorrect Key!";
+            document.getElementById("resume").innerHTML = "";
+        }
+    }
+</script>
+
+<div id="resume">
+</div>
+
+<div>
+    <p>The CV on this page has been encrypted for privacy reasons. If you have the key, enter it below to reveal the document.</p>
+    <p>If you think you should have the key but don't, please don't hesitate to email me at <a href="mailto:tom@bowdens.me">tom@bowdens.me</a>.</p>
+    <div>
+        Key:<br>
+        <input type="text" id="key" placeholder="Key"/><br>
+        <button onclick="resolve_key();">Submit Key</button>
+        <p id="error"></p>
+    </div>
+</div>
+
