@@ -8,8 +8,8 @@ title: CV
 
 
 <div class="project-list">
-    <h2>C</h2>
     <table class="no-table" style="width:90%">
+    <tr><td><h2>C</h2></td><td></td></tr>
         <tr>
             <td><a href="http://github.com/bowdens/input-handler">libtalaris</a></td>
             <td>A library that handles interactive input for you in your C programs.</td>
@@ -20,20 +20,24 @@ title: CV
         <tr>
             <td><a href="http://github.com/bowdens/cryptoprice">Cryptoprice</a></td><td>A command line tool that gets the price of various cryptocurrencies.</td>
         </tr>
-    </table>
 
-    <h2>Python</h2>
-    <table class="no-table" style="width:90%">
+    <tr><td><h2>Python</h2></td><td></td></tr>
         <tr>
             <td><a href="http://github.com/bowdens/tweet-simulator">Tweet Simulator Bot</a></td><td>A twitter bot that responds to mentions and impersonates @mentioned users using markov chains.</td>
         </tr>
         <tr>
             <td><a href="http://github.com/bowdens/erctoken.info">erctoken.info</a></td><td>A website that can interact with ERC20 tokens on the ethereum blockchain. Not currently deployed on a webserver.</td>
         </tr>
-    </table>
 
-    <h2>Processing</h2>
-    <table class="no-table" style="width:90%">
+    <tr><td><h2>Bash</h2></td><td></td></tr>
+        <tr>
+            <td><a href="http://github.com/bowdens/jekyll-post">jekyll-post</a></td>
+            <td>A simple bash script that automatically fills out a template for jekyll posts so you don't have to bother with the front matter or dates.</td>
+        </tr>
+
+    <tr>
+        <td><h2>Processing</h2></td><td></td>
+    </tr>
         <tr>
             <td><a href="/projects/processingPages">Processing Pages</a></td><td>A collection of small sketches I've made in processing. Most of these are made over the course of an afternoon and don't really do much.</td>
         </tr>
