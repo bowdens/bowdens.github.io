@@ -1,9 +1,16 @@
+@font-face {
+    font-family: latex;
+    src: url(../_assets/fonts/cmunrm.woff);
+}
+
 body {
     margin: 60px auto;
+    font-family:'Merriweather', serif;
     width: 70%;
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Merriweather', serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -12,24 +19,31 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     font-weight: bold;
     color: #999;
 }
+
 a:hover {
     text-decoration: none; /*underline;*/
     color: #CCC;
 }
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Merriweather', serif;
+}
+
 p {
-    font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #222;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -65,4 +79,12 @@ ul.posts li {
 
 canvas {
     border: 5px outset #DDD;
+}
+
+.post {
+    font-family: 'Markazi Text', serif;
+}
+
+.resume {
+    font-family: 'latex', serif;
 }
