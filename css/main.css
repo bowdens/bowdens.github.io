@@ -83,6 +83,8 @@ canvas {
 
 .post {
     font-family: 'Markazi Text', serif;
+    margin: 80px, auto;
+    font-size: 1.5em;
 }
 
 .resume {
