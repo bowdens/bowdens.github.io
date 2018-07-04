@@ -5,7 +5,7 @@ date: 2018-07-01 02:55:00 +1000
 categories: security
 ---
 
-I just read Troy Hunt's [HTTPS Is Easy!](www.troyhunt.com/https-is-easy/) blog post. He has posted a series of four videos on [www.HTTPSIsEasy.com](www.httpsiseasy.com) which quickly go through how to set up SSL on your website. And frankly, before watching these videos, my understanding of SLL and HTTPS was that it was some arcane magic with cryptography and certificates and certificate authorities that I'd never really bothered to understand. To be fair, after watching the videos I don't really know all that much more about how HTTPS works (other than that it encrypts stuff), but I do know how to implement it, which is great.
+I just read Troy Hunt's [HTTPS Is Easy!](http://www.troyhunt.com/https-is-easy/) blog post. He has posted a series of four videos on [www.HTTPSIsEasy.com](http://www.httpsiseasy.com) which quickly go through how to set up SSL on your website. And frankly, before watching these videos, my understanding of SLL and HTTPS was that it was some arcane magic with cryptography and certificates and certificate authorities that I'd never really bothered to understand. To be fair, after watching the videos I don't really know all that much more about how HTTPS works (other than that it encrypts stuff), but I do know how to implement it, which is great.
 
 His implementation guide uses Cloudflare's free ssl solution, which is super easy, and is (according to his videos) more secure than some banks.
 
