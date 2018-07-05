@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: Projects
 ---
 
 <h1>Projects</h1>

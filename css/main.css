@@ -1,6 +1,6 @@
 @font-face {
     font-family: latex;
-    src: url(../_assets/fonts/cmunrm.woff);
+    src: url(latex.woff);
 }
 
 body {
@@ -96,7 +96,25 @@ canvas {
     padding: 10px
 }
 
-.resume {
+div.resume {
     font-family: 'latex', serif;
-    text-indent: 5em;
+    font-size: 14pt;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.resume h1 h2 h3 h4 h5 h6 {
+    font-family: 'latex', serif;
+    font-size: 14pt;
+}
+
+div.resume table {
+    width: 100%;
+}
+
+.highlighter-rouge {
+    font-family: 'Sorce Code Pro', monospace;
+    font-size: 12pt;
+    background-color: #EEE;
 }
