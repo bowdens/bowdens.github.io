@@ -34,6 +34,11 @@ title: Projects
             <td><a href="http://github.com/bowdens/jekyll-post">jekyll-post</a></td>
             <td>A simple bash script that automatically fills out a template for jekyll posts so you don't have to bother with the front matter or dates.</td>
         </tr>
+    <tr><td><h2>Solidity</h2></td><td></td></tr>
+    <tr>
+        <td><a href="https://etherscan.io/address/0x8b84715c41bfb75f8e8ce47447180450758332b3#code">Bowdencoin</a></td>
+        <td>My very own ERC20 token - Bowden coin. A novelty coin where you can double your holdings every X days (X increases over time), but you have to send half of the doubled amount to a different address</td>
+    </tr>
 
     <tr>
         <td><h2>Processing</h2></td><td></td>
