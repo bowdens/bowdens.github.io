@@ -118,3 +118,14 @@ div.resume table {
     font-size: 12pt;
     background-color: #EEE;
 }
+
+.image-caption {
+    text-align: center;
+    font-size: .8rem;
+    color: #888;
+}
+
+.post-image {
+    text-align: center;
+    outline: #888;
+}
