@@ -2,8 +2,11 @@
 layout: post
 title: "Encrypting private data on a static website"
 date: 2018-07-05
+image: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Locked_document.png"
+credit: "Lydia Kim"
 categories: blog
 ---
+
 
 When I was creating this website I faced a problem. I wanted to have my resume available on here, but I really didn't want anybody to be able to just view it. Obviously the answer here is to have some kind of password that I could distribute to the people who I wanted to see the resume, and have the server validate the password(s).
 However this is a static website (using jekyll), hosted with github pages, so it is not possible to have any kind of server side validation - I needed a new method.

@@ -2,6 +2,8 @@
 layout: post
 title: "Jekyll Post - a simple bash script"
 date: 2018-07-05
+image: "/assets/img/jekyll.png"
+credit: "jekyllrb.com"
 categories: blog
 ---
 

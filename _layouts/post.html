@@ -6,6 +6,12 @@ layout: default
     <h1 style="text-align:center">{{ page.title }}</h1>
 </div>
 <div class="post">
+    {% if page.image %}
+    <img class="post-image" src="{{page.image}}" alt="{{page.title}}">
+    {% if page.credit %}
+    <div class="image-caption">Image credit: {{page.credit}}</div>
+    {% endif %}
+    {% endif %}
     <p class="meta" style="text-align:left">{{ page.date | date_to_string }}</p>
     {{ content }}
 </div>

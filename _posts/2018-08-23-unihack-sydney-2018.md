@@ -2,6 +2,8 @@
 layout: post
 title: "Unihack Sydney 2018"
 date: 2018-08-23
+image: "/assets/img/blockMed.jpg"
+credit: "Gerard Hosier"
 categories: blog
 ---
 
@@ -12,12 +14,6 @@ In the end, we split the team of seven up into two smaller teams; partly because
 I ended up working on the blockchain prescription system - which we called BlockMed, with two others (plus another who didn't show up on the second day).
 
 ## BlockMed
-
-{:.post-image}
-![BlockMed](/assets/img/blockMed.jpg)
-
-{:.image-caption}
-*Logo created by Gerard Hosier*
 
 ### The elevator pitch
 

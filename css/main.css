@@ -77,6 +77,13 @@ ul.posts li {
     border-bottom: 1px solid #AAA;
 }
 
+.no-table img {
+    width: 128px;
+    height: auto;
+    max-height:128px;
+    overflow: hidden;
+}
+
 canvas {
     border: 5px outset #DDD;
 }
@@ -126,6 +133,9 @@ div.resume table {
 }
 
 .post-image {
-    text-align: center;
-    outline: #888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-height: 300px;
 }
