@@ -39,6 +39,10 @@ title: Projects
         <td><a href="https://etherscan.io/address/0x8b84715c41bfb75f8e8ce47447180450758332b3#code">Bowdencoin</a></td>
         <td>My very own ERC20 token - Bowden coin. A novelty coin where you can double your holdings every X days (X increases over time), but you have to send half of the doubled amount to a different address</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/bowdens/blockMed">BlockMed</a></td>
+        <td>Putting prescriptions on the blockchain. A prototype made for Unihack Sydney 2018. Read my blog post about it <a href="/blog/2018/08/23/unihack-sydney-2018">here</a>.</td>
+    </tr>
 
     <tr>
         <td><h2>Processing</h2></td><td></td>
