@@ -4,7 +4,7 @@ title: "Jekyll Post - a simple bash script"
 date: 2018-07-05
 image: "/assets/img/jekyll.png"
 credit: "jekyllrb.com"
-categories: blog
+categories: blog bash jekyll
 ---
 
 It's a bit of a pain to have to remember the date, put it in the right format, and then type out the front matter for each jekyll post.

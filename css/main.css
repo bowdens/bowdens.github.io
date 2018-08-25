@@ -139,3 +139,67 @@ div.resume table {
     width: 60%;
     max-height: 300px;
 }
+
+input[type=text] {
+    width: 80%;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color: #EEE;
+    background-image: url('/assets/img/key.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 52px;
+    font-size: 16pt;
+}
+
+input[type=text]:focus {
+    border: solid 2px white;
+}
+
+button {
+    background-color: #AAA;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px #333;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px #333;
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px #333;
+}
+
+.categories {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: default;
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.categories li {
+    display: inline;
+    padding: 2px 4px 2px 4px;
+    background-color: #EEE;
+    border-radius: 4px;
+}
+
+.categories li:hover {
+    background-color: #DDD;
+    color: #999;
+}
+

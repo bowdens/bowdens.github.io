@@ -4,7 +4,7 @@ title: "Unihack Sydney 2018"
 date: 2018-08-23
 image: "/assets/img/blockMed.jpg"
 credit: "Gerard Hosier"
-categories: blog
+categories: blog hackathon blockchain
 ---
 
 Over the weekend of 4 - 5 August 2018, I attended Unihack Sydney. This was the first hackathon I'd ever been to so it was a pretty new experience for me.

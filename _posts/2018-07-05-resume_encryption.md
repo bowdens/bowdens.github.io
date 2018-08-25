@@ -4,7 +4,7 @@ title: "Encrypting private data on a static website"
 date: 2018-07-05
 image: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Locked_document.png"
 credit: "Lydia Kim"
-categories: blog
+categories: blog security
 ---
 
 

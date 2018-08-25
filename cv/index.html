@@ -21,14 +21,16 @@ title: CV
         } catch(err) {
             document.getElementById("resume").innerHTML = "";
             document.getElementById("error").innerText = "Incorrect Key!";
+            document.getElementById("error").style.backgroundColor = "#912";
             return;
         }
         var match = "<h1>Resume</h1>"
         var firstPart = decryptedHTML.substr(0,match.length);
         if(firstPart === match) {
             // Key worked (probably... MIGHT happen to decrypt to a random string that has <h1>...)
-            document.getElementById("error").innerText = "";
+            document.getElementById("error").innerText = "Successfully Decrypted";
             document.getElementById("resume").innerHTML = decryptedHTML;
+            document.getElementById("error").style.backgroundColor = "#152";
         } else {
             document.getElementById("error").innerText = "Incorrect Key!";
             document.getElementById("resume").innerHTML = "";
@@ -36,19 +38,18 @@ title: CV
     }
 </script>
 
-<div id="resume" class="resume">
-</div>
-
-<hr>
 
 <div>
     <p>The CV on this page has been encrypted for privacy reasons. If you have the key, enter it below to reveal the document.</p>
     <p>If you think you should have the key but don't, please don't hesitate to email me at <a href="mailto:tom@bowdens.me">tom@bowdens.me</a>.</p>
-    <div>
-        Key:<br>
-        <input type="text" id="key" placeholder="Key"/><br>
-        <button onclick="resolve_key();">Submit Key</button>
-        <p id="error"></p>
+    <div style="border: solid 1px #888; border-radius: 8px; background-color: #FFF">
+        <p style="text-align: center;"><input type="text" id="key" placeholder="Key" pattern="[0-9]+"/></p>
+        <p style="text-align: center;"><button onclick="resolve_key();">Submit Key</button></p>
+        <p style="text-align: center; width: 100%; background-color:#912; color: #EEE"id="error"></p>
     </div>
 </div>
 
+<hr>
+
+<div id="resume" class="resume">
+</div>

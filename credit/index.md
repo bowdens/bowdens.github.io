@@ -22,3 +22,6 @@ Gerard Hosier. Created for Unihack Sydey 2018 BlockMed Project.
 
 ![Jekyll](/assets/img/jekyll.png)  
 jekyllrb.com, [CC-BY-4.0](http://choosealicense.com/licenses/cc-by-4.0/). Obtained from [github.com/jekyll/brand](https://github.com/jekyll/brand)
+
+![Key](/assets/img/key.png)  
+[fontawesome.com](https://www.fontawesome.com), [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)

@@ -9,18 +9,20 @@
             -->
 
             <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li style="float:right"><a href="/"><img src="/assets/img/logo.png" alt="bowdens-logo" height="32" width="32"></a></li>
-                </ul>
-			</nav>
+        </head>
+        <body>
+            <div class="header">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/cv">CV</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li style="float:right"><a href="/"><img src="/assets/img/logo.png" alt="bowdens-logo" height="32" width="32"></a></li>
+                    </ul>
+                </nav>
+            </div>
 			<div class="container">
 
                 {{ content }}
@@ -31,7 +33,8 @@
 	    		<ul>
 	        		<li><a href="mailto:admin@bowdens.me">email</a></li>
                     <li><a href="https://github.com/bowdens">@bowdens</a></li>
-                    <li><a href="/credit">Credit/Attribution</a></li>
+                    <li><a href="/credit">Attribution</a></li>
+                    <li style="float:right">Last updated: {{site.time | date_to_string}}</li>
 				</ul>
 			</footer>
 		</body>
