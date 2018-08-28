@@ -15,7 +15,7 @@ title: Projects
             <td>A library that handles interactive input for you in your C programs. For more, see <a href="/libtalaris">here</a></td>
         </tr>
         <tr>
-            <td><a href="http://github.com/bowdens/cli_rpg">Command Line RPG</a></td><td>A command line game that uses libtalaris to collect commands. It's not a particularly fun game, but it shows off how libtalaris can be used.</td>
+            <td><a href="http://github.com/bowdens/cli_rpg">Command Line RPG</a></td><td>A command line game that uses an older version of libtalaris to parse commands. It's not a particularly fun game, but it shows off how libtalaris can be used.</td>
         </tr>
         <tr>
             <td><a href="http://github.com/bowdens/cryptoprice">Cryptoprice</a></td><td>A command line tool that gets the price of various cryptocurrencies.</td>
