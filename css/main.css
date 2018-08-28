@@ -163,11 +163,11 @@ input[type=text]:focus {
 }
 
 button {
-    background-color: #AAA;
+    background-color: #EEE;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
     border: none;
-    box-shadow: 0 4px #333;
+    box-shadow: 0px 4px #AAA;
     text-align: center;
     cursor: pointer;
     font-size: 16pt;
@@ -176,12 +176,12 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px #333;
+    box-shadow: 0px 6px #AAA;
 }
 
 button:active {
     transform: translateY(2px);
-    box-shadow: 0 2px #333;
+    box-shadow: 0 2px #AAA;
 }
 
 .categories {
@@ -208,3 +208,6 @@ button:active {
     color: #999;
 }
 
+.constrained-image img {
+    max-width: 60%;
+}
