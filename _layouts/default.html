@@ -13,8 +13,8 @@
 
 
         <body>
-            <div class="header">
-                <nav>
+            <nav>
+                <div class="header">
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
@@ -22,9 +22,9 @@
                         <li><a href="/blog">Blog</a></li>
                         <li><a href="/projects">Projects</a></li>
                     </ul>
-                    <span style="display:inline-block; float:right;"><a href="/"><img src="/assets/img/logo.png" alt="bowdens-logo" style="width: 64px; height: 64px;"></a></span>
-                </nav>
-            </div>
+                    <span style="float:right;"><a href="/"><img src="/assets/img/logo.png" alt="bowdens-logo" style="width: 64px; height: 64px;"></a></span>
+                </div>
+            </nav>
 			<div class="container">
 
                 {{ content }}
@@ -36,8 +36,9 @@
                     <li><a href="mailto:admin@bowdens.me">email</a></li>
                     <li><a href="https://github.com/bowdens">@bowdens</a></li>
                     <li><a href="/credit">Attribution</a></li>
-                    <li style="float:right">Last updated: {{site.time | date_to_string}}</li>
                 </ul>
+                <span style="float:right; ">Last updated: {{site.time | date_to_string}}</span>
+                
             </footer>
 		</body>
 	</html>
