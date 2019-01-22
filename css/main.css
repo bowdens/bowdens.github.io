@@ -231,14 +231,14 @@ div.key-container button {
 }
 
 
-button:hover {
-    transform: translateY(-2px);
+div.key-container button:hover {
     box-shadow: 0px 6px #666;
+    transform: translateY(-2px);
 }
 
-button:active {
-    transform: translateY(2px);
+div.key-container button:active {
     box-shadow: 0px 2px #666;
+    transform: translateY(2px);
 }
 
 .categories {
