@@ -9,3 +9,4 @@ title: Blog
 {% for post in site.posts %} {% include listpost.html post=post %}
 {% endfor %}
 </table>
+{% assign p = site.pages | sample %}

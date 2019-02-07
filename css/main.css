@@ -9,6 +9,17 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none; /*underline;*/
+    color: #999;
+}
+
 .header {
     width: 70%;
     max-width: 800vw;
@@ -38,34 +49,36 @@ nav ul, footer ul {
     font-family:'Merriweather', serif;
     list-style: none;
     display: inline-block;
+    padding: 0;
     margin: auto;
-    padding-left: 0px;
-    padding-right: 0px;
+    height: 100%;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: #999;
+}
+
+nav ul li a:hover {
+    color: #CCC;
 }
 
 footer {
     font-weight: bold;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+nav ul li:not(:last-child) {
+    border-right: 1px #666 solid;
 }
 
-a {
-    text-decoration: none;
-    font-weight: italic;
-    color: #999;
-}
-
-a:hover {
-    text-decoration: none; /*underline;*/
-    color: #CCC;
-}
-
-h1 {
-    font-size: calc(48px - 1vw);
-}
 
 h1 h2 h3 h4 h5 h6 {
     font-family: 'Merriweather', serif;
@@ -87,8 +100,8 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    font-size: calc(26px - 0.1vw);
     color: #222;
+    font-size: 14pt;
 }
 
 ul.posts {
@@ -117,6 +130,10 @@ ul.posts li {
 .no-table td {
     padding: 5px;
     border-bottom: 1px solid #AAA;
+}
+
+.no-table tr:last-child {
+    padding-bottom: 5px;
 }
 
 .no-table img {
@@ -250,6 +267,10 @@ div.key-container button:active {
 }
 
 .categories ul {
+    list-style: none;
+}
+
+.all-categories ul {
     list-style: none;
 }
 
