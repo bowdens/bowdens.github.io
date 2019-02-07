@@ -9,4 +9,5 @@ title: Blog
 {% for post in site.posts %} {% include listpost.html post=post %}
 {% endfor %}
 </table>
-{% assign p = site.pages | sample %}
+
+<a href="/category">View posts by category</a>
