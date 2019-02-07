@@ -167,7 +167,10 @@ div.resume {
     font-size: 14pt;
     max-width: 1000px;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px black;
 }
 
 div.resume h1 h2 h3 h4 h5 h6 {
@@ -177,6 +180,23 @@ div.resume h1 h2 h3 h4 h5 h6 {
 
 div.resume table {
     width: 100%;
+    margin-bottom: 10px;
+}
+
+div.resume table td:not(:last-child) {
+    border-right: 1px solid #AAA;
+}
+
+div.resume table th:not(:last-child) {
+    border-right: 1px solid #AAA;
+}
+
+div.resume table tr:last-child td {
+    border-bottom: none;
+}
+
+div.resume table th {
+    border-bottom: 2px solid black;
 }
 
 .highlighter-rouge {
