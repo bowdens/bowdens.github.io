@@ -8,14 +8,14 @@ image: "/assets/img/badgerys.png"
 credit: Badgerys Creek Locksmiths
 ---
 
-[www.badgeryscreeklocksmiths.com.au](www.badgeryscreeklocksmiths.com.au) is a website I've recently created for Lock Logic who are now operating under the additional trading name of Badgerys Creek Locksmiths.
+[www.badgeryscreeklocksmiths.com.au](http://www.badgeryscreeklocksmiths.com.au) is a website I've recently created for Lock Logic who are now operating under the additional trading name of Badgerys Creek Locksmiths.
 
 ## Motivation
-I was asked by the owner of Lock Logic (who also happens to be my father) to create his new website for Badgerys Creek Locksmiths as he aimed to expand his business' reach into that area. I also took this as a good opportunity to cement my understanding of basic HTML, expand my understanding of CSS, as well as delve more into basic javascript. 
+I was asked by the owner of Lock Logic (who also happens to be my dad) to create his new website for Badgerys Creek Locksmiths as he aimed to expand his business' reach into that area. I also took this as a good opportunity to cement my understanding of basic HTML, expand my understanding of CSS, as well as delve more into basic javascript. 
 
 For the back end I also saw an opportunity to become at least a little bit familiar with AWS, so the website is hosted on an EC2 instance running a flask server.
 
-The website is supposed to attract customers in the Badgery's Creek and surrounding suburbs area. There is a landing page for each surrounding suburb.
+The website is supposed to attract customers in the Badgery's Creek and surrounding suburbs area. For that reason, there is a landing page for each surrounding suburb. (For example, [www.badgeryscreeklocksmiths.com.au/badgeryscreek](http://www.badgeryscreeklocksmiths.com.au/badgeryscreek))
 
 ## The Front End
 I intentionally went into this project not using any web frameworks so I could get a good handle on the basics of front end web development.
