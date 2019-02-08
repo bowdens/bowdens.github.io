@@ -5,7 +5,7 @@ title: About
 <h1>About me</h1>
 <div class="blurb">
     <p>Hi. My name is Tom Bowden.</p>
-    <p>I'm currently studying a bachelor of Computer Science at UNSW, majoring in Security Engineering. I expect to graduate in 2019.</p>
+    <p>I'm currently studying a bachelor of Computer Science at UNSW, majoring in Security Engineering. I expect to graduate in 2020.</p>
 </div>
 <h2>Contact Details</h2>
 <div>
