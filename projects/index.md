@@ -28,6 +28,13 @@ title: Projects
         <tr>
             <td><a href="http://github.com/bowdens/erctoken.info">erctoken.info</a></td><td>A website that can interact with ERC20 tokens on the ethereum blockchain. Not currently deployed on a webserver.</td>
         </tr>
+    <tr><td><h2>Web Dev</h2></td><td></td></tr>
+    <tr>
+        <td><a href="http://github.com/bowdens/bowdens.github.io">bowdens.me (this website)</a></td><td>My personal website, using github pages (which uses jekyll). The front end was made by me pretty much from scratch with HTML, CSS, and JavaScript</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.badgeryscreeklocksmiths.com.au">badgeryscreeklocksmiths.com.au</a></td><td>A website created for Badgery's Creek Locksmiths. Deployed using flask on an AWS EC2 instance. Front end created by me with HTML, CSS, and JavaScript.</td>
+    </tr>
 
     <tr><td><h2>Bash</h2></td><td></td></tr>
         <tr>
