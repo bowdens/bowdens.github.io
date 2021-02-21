@@ -3,7 +3,7 @@ layout: post
 title: "CSESoc Hackathon 2018"
 date: 2018-09-22
 categories: blog hackathon
-image: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_background_images/000/675/399/datas/original.png"
+image: "/assets/img/csesochackathon.png"
 credit: CSESoc UNSW
 ---
 
