@@ -5,7 +5,9 @@ title: About
 <h1>About me</h1>
 <div class="blurb">
     <p>Hi. My name is Tom Bowden.</p>
-    <p>I'm currently studying a bachelor of Computer Science at UNSW, majoring in Security Engineering. I expect to graduate in 2020.</p>
+    <p>I'm currently studying a bachelor of Computer Science at UNSW. I expect to graduate in 2021.</p>
+    <p>Currently I'm having a lot of fun with web development, so I've been doing a lot of that recently.</p>
+    <p>At the moment I work part time in IT support, with a bit of API programming to link our software together.</p>
 </div>
 <h2>Contact Details</h2>
 <div>
@@ -17,7 +19,7 @@ title: About
             <td>Github</td> <td><a href="https://www.github.com/bowdens">@bowdens</a></td>
         </tr>
         <tr>
-            <td>Twitter</td> <td><a href="https://www.twitter.com/bo_wd_en">@bo_wd_en</a></td>
+            <td>Linkedin</td><td><a href="https://www.linkedin.com/in/t-bowden">Thomas Bowden</a></td>
         </tr>
 
     </table>

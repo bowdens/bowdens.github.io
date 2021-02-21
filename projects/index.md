@@ -30,6 +30,10 @@ title: Projects
         </tr>
     <tr><td><h2>Web Dev</h2></td><td></td></tr>
     <tr>
+    <td><a href="https://polybius.bowdens.me">holder</a></td>
+    <td>Holder is a web app I made that allows D&D players to convert their pencil and paper bags of holding to a shared, live-updating bag online. See more in my <a href="/category/holder">blog post</a>.</td>
+    </tr>
+    <tr>
         <td><a href="http://github.com/bowdens/bowdens.github.io">bowdens.me (this website)</a></td><td>My personal website, using github pages (which uses jekyll). The front end was made by me pretty much from scratch with HTML, CSS, and JavaScript</td>
     </tr>
     <tr>
