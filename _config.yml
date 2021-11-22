@@ -1,7 +1,7 @@
 name: Bowdens
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-url: "http://www.bowdens.me"
+url: "http://old.bowdens.me"
 twitter_username: bo_wd_en
 github_username: bowdens
 description: >-
